@@ -72,8 +72,8 @@ public class GameView extends View {
             if (bubbles.get(i).bubbleFrame > 3){
                 bubbles.get(i).bubbleFrame = 0;
             }
-            bubbles.get(i).bubbleY -= bubbles.get(i).velocity;
-            if (bubbles.get(i).bubbleY< - bubbles.get(i).getHeight()){
+            bubbles.get(i).bubbleX -= bubbles.get(i).velocity;
+            if (bubbles.get(i).bubbleX< - bubbles.get(i).getWidth()){
                 bubbles.get(i).resetPosition();
             }
             // red bubbles
@@ -82,8 +82,8 @@ public class GameView extends View {
             if (redBubbles.get(i).bubbleFrame>3){
                 redBubbles.get(i).bubbleFrame = 0;
             }
-            redBubbles.get(i).bubbleY +=bubbles.get(i).velocity;
-            if (redBubbles.get(i).bubbleY > (dHeight+redBubbles.get(i).getHeight())){
+            redBubbles.get(i).bubbleX +=bubbles.get(i).velocity;
+            if (redBubbles.get(i).bubbleX > (dWidth+redBubbles.get(i).getWidth())){
                 redBubbles.get(i).resetPosition();
             }
 

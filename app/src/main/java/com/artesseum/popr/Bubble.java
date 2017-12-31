@@ -48,8 +48,8 @@ public class Bubble {
     }
     public void resetPosition(){
 
-        bubbleY = GameView.dWidth + random.nextInt(1200);
-        bubbleX = random.nextInt(300);
+        bubbleX = GameView.dWidth+ random.nextInt(300);
+        bubbleY = random.nextInt(300);
         velocity = 8 + random.nextInt(13);
         bubbleFrame = 0;
 

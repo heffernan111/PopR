@@ -36,8 +36,8 @@ public class RedBubble extends Bubble {
 
     @Override
     public void resetPosition() {
-        bubbleY = -(200+random.nextInt(1500));
-        bubbleX = random.nextInt(400);
+        bubbleY = -(200+random.nextInt(500));
+        bubbleX = random.nextInt(300);
         velocity = 8 + random.nextInt(21);
     }
 }
