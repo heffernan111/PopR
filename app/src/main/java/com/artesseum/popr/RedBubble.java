@@ -13,10 +13,10 @@ public class RedBubble extends Bubble {
     Bitmap[] bubble = new Bitmap[4];
     public RedBubble(Context context) {
         super(context);
-        bubble[0] = BitmapFactory.decodeResource(context.getResources(),R.drawable.output32);
-        bubble[1] = BitmapFactory.decodeResource(context.getResources(),R.drawable.output33);
-        bubble[2] = BitmapFactory.decodeResource(context.getResources(),R.drawable.output34);
-        bubble[3] = BitmapFactory.decodeResource(context.getResources(),R.drawable.output35);
+        bubble[0] = BitmapFactory.decodeResource(context.getResources(),R.drawable.bubble11);
+        bubble[1] = BitmapFactory.decodeResource(context.getResources(),R.drawable.bubble11);
+        bubble[2] = BitmapFactory.decodeResource(context.getResources(),R.drawable.bubble11);
+        bubble[3] = BitmapFactory.decodeResource(context.getResources(),R.drawable.bubble11);
         resetPosition();
     }
 
