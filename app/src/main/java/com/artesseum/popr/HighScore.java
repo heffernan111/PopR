@@ -13,8 +13,8 @@ public class HighScore {
     public HighScore (){} // needed for firebase
 
     public HighScore(String displayname, int currentHighScore){
-        displayname = displayname;
-        currentHighScore = currentHighScore;
+        this.displayname = displayname;
+        this.currentHighScore = currentHighScore;
     }
 
     public int getCurrentHighScore() {
