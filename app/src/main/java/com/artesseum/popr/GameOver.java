@@ -1,6 +1,5 @@
 package com.artesseum.popr;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -11,7 +10,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
@@ -32,11 +30,7 @@ public class GameOver extends AppCompatActivity {
 
     TextView playerScore, peronalBest;
     private DatabaseReference userData;
-    Context context;
     String uid;
-    String displayname;
-    int currentHighScore;
-    FirebaseRecyclerAdapter adapter;
     private RecyclerView leaderboard;
 
 
@@ -146,7 +140,6 @@ public class GameOver extends AppCompatActivity {
     public void restart(View view){
         Intent intent = new Intent(GameOver.this, MainActivity.class);
         startActivity(intent);
-        adapter.stopListening();
         finish();
     }
 
