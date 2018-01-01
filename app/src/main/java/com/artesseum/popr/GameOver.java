@@ -56,7 +56,8 @@ public class GameOver extends Activity {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 HighScore highScore = new HighScore();
                 String displayName = dataSnapshot.child(uid).getValue(HighScore.class).getDisplayname();
-                int currentHighScore = dataSnapshot.child(uid).getValue(HighScore.class).getCurrentHighScore();
+                final int currentHighScore = dataSnapshot.child(uid).getValue(HighScore.class).getCurrentHighScore();
+                peronalBest.setText(""+currentHighScore);
 
                 if(currentHighScore < score){
                     userData.child("users").child(uid).child("currentHighScore").setValue(score);
