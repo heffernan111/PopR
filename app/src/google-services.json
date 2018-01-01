@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "939931602923",
+    "firebase_url": "https://popr-8afcb.firebaseio.com",
+    "project_id": "popr-8afcb",
+    "storage_bucket": "popr-8afcb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939931602923:android:58c206e18e49b428",
+        "android_client_info": {
+          "package_name": "com.artesseum.popr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "939931602923-72776mtfrakc2hk3gr87n8l465ekl513.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.artesseum.popr",
+            "certificate_hash": "af80c2c29104a600cea8fd9bae32e7a2f0759d70"
+          }
+        },
+        {
+          "client_id": "939931602923-bemru55fmt6br9l3ek6lf851htvi3b2m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtZvBfL8FFHRqDFaXvkb7oBVPeA8kc-20"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "939931602923-bemru55fmt6br9l3ek6lf851htvi3b2m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939931602923:android:28a98d4e4abfbe91",
+        "android_client_info": {
+          "package_name": "com.arteeum.popr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "939931602923-bemru55fmt6br9l3ek6lf851htvi3b2m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtZvBfL8FFHRqDFaXvkb7oBVPeA8kc-20"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

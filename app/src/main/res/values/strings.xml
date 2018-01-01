@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">PopR</string>
+    <string name="facebook_application_id" translatable="false">259174444560156</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb259174444560156</string>
 </resources>

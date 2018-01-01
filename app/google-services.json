@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1097649301714",
+    "firebase_url": "https://cirles-7284183.firebaseio.com",
+    "project_id": "cirles-7284183",
+    "storage_bucket": "cirles-7284183.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097649301714:android:58c206e18e49b428",
+        "android_client_info": {
+          "package_name": "com.artesseum.popr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097649301714-3db85msnhu0suvf5njunklpfe827s97v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgwZ0JqSUYz385vuawVArvvEdFUEmnR1M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

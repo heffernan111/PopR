@@ -47,4 +47,6 @@
         android:layout_below="@+id/restartButton"
         android:text="ScoreBoards" />
 
+
+
 </RelativeLayout>
