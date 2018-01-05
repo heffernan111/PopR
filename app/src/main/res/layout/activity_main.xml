@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,25 +8,53 @@
     tools:context="com.artesseum.popr.MainActivity">
 
 
-    <ImageButton
-        android:id="@+id/startGame"
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="60dp"
+        android:text="PopR"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="240dp"
-        android:contentDescription="startgame "
-        android:src="@android:drawable/ic_media_play" />
+        android:layout_gravity="bottom|end"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="94dp">
 
-    <ImageButton
-        android:id="@+id/logout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/startGame"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="64dp"
-        android:contentDescription="logout"
-        android:src="@drawable/com_facebook_tooltip_blue_xout"
-        />
+        <ImageButton
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/startGame"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="logout"
+            android:src="@drawable/com_facebook_tooltip_blue_xout" />
 
-</RelativeLayout>
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_share" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_sort_by_size" />
+
+        <ImageButton
+            android:id="@+id/startGame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:contentDescription="startgame"
+            android:src="@android:drawable/ic_media_play" />
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
