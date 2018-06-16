@@ -11,21 +11,21 @@ import android.graphics.BitmapFactory;
 public class Stone {
     int x,y;
     int mVelocity;
-    Bitmap stone;
+    Bitmap electron;
 
 
     public Stone(Context context){
-        stone = BitmapFactory.decodeResource(context.getResources(), R.drawable.bullet11);
+        electron = BitmapFactory.decodeResource(context.getResources(), R.drawable.electron);
         x = GameView.dWidth/2 - getStoneWidth()/2;
         y = GameView.dHeight - GameView.handHeight - getStoneHeight()/2;
         mVelocity = 50;
     }
 
     public int getStoneWidth(){
-        return stone.getWidth();
+        return electron.getWidth();
     }
     public int getStoneHeight(){
-        return stone.getHeight();
+        return electron.getHeight();
     }
 
 

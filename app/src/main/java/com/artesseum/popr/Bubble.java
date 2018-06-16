@@ -22,10 +22,10 @@ public class Bubble {
 
     public Bubble(Context context) {
 
-        bubbles[0] = BitmapFactory.decodeResource(context.getResources(),R.drawable.bubble11);
-        bubbles[1] = BitmapFactory.decodeResource(context.getResources(),R.drawable.bubble11);
-        bubbles[2] = BitmapFactory.decodeResource(context.getResources(),R.drawable.bubble11);
-        bubbles[3] = BitmapFactory.decodeResource(context.getResources(),R.drawable.bubble11);
+        bubbles[0] = BitmapFactory.decodeResource(context.getResources(),R.drawable.positron);
+        bubbles[1] = BitmapFactory.decodeResource(context.getResources(),R.drawable.positron);
+        bubbles[2] = BitmapFactory.decodeResource(context.getResources(),R.drawable.positron);
+        bubbles[3] = BitmapFactory.decodeResource(context.getResources(),R.drawable.positron);
 
 
         random = new Random();

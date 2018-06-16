@@ -16,11 +16,11 @@ public class Pop {
 
 
     public Pop(Context context){
-        pop[0] = BitmapFactory.decodeResource(context.getResources(),R.drawable.pop);
-        pop[1] = BitmapFactory.decodeResource(context.getResources(),R.drawable.pop);
-        pop[2] = BitmapFactory.decodeResource(context.getResources(),R.drawable.pop);
-        pop[3] = BitmapFactory.decodeResource(context.getResources(),R.drawable.pop);
-        pop[4] = BitmapFactory.decodeResource(context.getResources(),R.drawable.pop);
+        pop[0] = BitmapFactory.decodeResource(context.getResources(),R.drawable.neutron);
+        pop[1] = BitmapFactory.decodeResource(context.getResources(),R.drawable.neutron);
+        pop[2] = BitmapFactory.decodeResource(context.getResources(),R.drawable.neutron);
+        pop[3] = BitmapFactory.decodeResource(context.getResources(),R.drawable.neutron);
+        pop[4] = BitmapFactory.decodeResource(context.getResources(),R.drawable.neutron);
 
 
     }

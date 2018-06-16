@@ -114,7 +114,7 @@ public class GameView extends View {
         for(int i = 0; i<stones.size(); i++){
             if(stones.get(i).y > - stones.get(i).getStoneHeight()){
                 stones.get(i).y -= stones.get(i).mVelocity;
-                canvas.drawBitmap(stones.get(i).stone,stones.get(i).x, stones.get(i).y,null);
+                canvas.drawBitmap(stones.get(i).electron,stones.get(i).x, stones.get(i).y,null);
                 if (stones.get(i).x >= bubbles.get(0).bubbleX && (stones.get(i).x + stones.get(i).getStoneWidth())
                         <= (bubbles.get(0).bubbleX + bubbles.get(0).getWidth()) &&
                         stones.get(i).y >= bubbles.get(0).bubbleY && stones.get(i).y <= (bubbles.get(0).bubbleY + bubbles.get(0).getHeight())){
